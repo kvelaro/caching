@@ -1,0 +1,14 @@
+{
+    "name": "kvelaro/caching",
+    "description": "Laravel caching middleware",
+    "type": "middleware",
+    "require": {
+        "laravel/laravel": ">=5.7"
+    },
+    "authors": [
+        {
+            "name": "Kamil Velaro",
+            "email": "kamilmiem@gmail.com"
+        }
+    ]
+}
