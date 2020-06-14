@@ -1,6 +1,6 @@
 <?php
 
-namespace kvelaro;
+namespace Kvelaro\Caching;
 
 use Closure;
 use Illuminate\Support\Facades\Cache;
