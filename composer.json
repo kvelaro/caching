@@ -7,7 +7,7 @@
             "name": "Kamil Velaro",
             "email": "kamilmiem@gmail.com"
         }
-    ]
+    ],
     "autoload": {
         "psr-4": {
             "Kvelaro\\Caching": "src/"
