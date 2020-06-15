@@ -1,5 +1,20 @@
 ### Плагин кеширования данных через memcached
 
+## Установка
+
+```
+composer require kvelaro/caching
+```
+
+Добавить App\Http\Kernel к списку промежуточных модулей (middleware) 
+``` 
+protected $middleware = [
+...
+...
+\Kvelaro\Caching\Caching::class
+];
+```
+
 Принимая во внимание то, что в конфиг-файле объявлено два ключа кеширования (primary и backup)
 ```
 'primary-memcached' => [
