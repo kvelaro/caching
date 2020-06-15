@@ -56,7 +56,7 @@ class Caching
             }
         }
                 
-        $productionEnv = env('APP_ENV') == Caching::ENV_PROD || 1 == 1;
+        $productionEnv = env('APP_ENV') == Caching::ENV_PROD;
         //null or false? On my local env null, proceeding with null
         $response = null;
         //before request
